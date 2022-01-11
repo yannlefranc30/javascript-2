@@ -1,0 +1,55 @@
+h1 {
+    color: black;
+    Text-align: center;
+    font-size: 800%;
+    background-color: rgb(137, 66, 209); 
+    margin-top: -1%;
+    font-style: italic;
+    text-shadow: 5px 5px 2px white;
+}
+body{
+    background-image: url(https://previews.123rf.com/images/mettus/mettus1403/mettus140300313/26996388-fond-violet-rose-sur-fond-d-%C3%A9cran-noir.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+.header{
+    color: rgb(143, 121, 138);
+    text-align:center;
+    font-size:800%;
+    height:800px;
+}
+.formulaire{
+    margin-top: -32%;
+    margin-left: 40%;
+    width: 20%; 
+    border:3px solid rgb(199, 0, 0);
+    border-radius: 2em;
+}
+form div + div{
+    margin-top: 1em;  
+}
+label{
+   display: inline-block;
+   width: 100px;
+   text-align: right;
+   font-size: 25px; color: lightyellow;
+}
+input, textarea {
+   font: 1em sans-serif;
+   width: 300px;
+   box-sizing: border-box;
+   border: 1px solid #999;
+}
+input:focus, textarea:focus{
+   border-color: #000;
+}
+textarea {
+   vertical-align: top;
+   height: 5em;
+}
+.button{
+   padding-left: 90px;
+}
+button{
+   margin-left: .5em;
+}

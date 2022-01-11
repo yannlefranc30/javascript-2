@@ -1,0 +1,61 @@
+<!--  la premiére facon d'écrire du javacript est de mettre <script></script>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.CIG.STORE</title>
+</head>
+    <h1>CIG STORE
+   <button class = "menu" type="menu" menu="popup-menu" style="font-size: 15%; border-radius: 15%;">
+        <a href="accueil.html">Accueil</a>
+   </button>
+   <button class = "menu" type="menu" menu="popup-menu" style="font-size: 15%; border-radius: 15%;">
+    <a href="cine.store.html">Ciné Store</a>
+   </button>
+   <button class = "menu" type="menu" menu="popup-menu" style="font-size: 15%; border-radius: 15%;">
+    <a href="qcm.html">QCM</a>
+   </button>
+   <button class = "menu" type="menu" menu="popup-menu" style="font-size: 15%; border-radius: 15%;">
+    <a href="glagla.html">glagla</a> 
+   </button>
+
+   <p>bonjour</p>
+<!-- il existe trois facon de mettre du javascript-->
+<!-- le code ci desssou permet d'aller chercher un dossier dans le dossier js-->
+<script src="new folder.js/app.js"></script>
+<script>
+    alert("Vous souhaitez plus de cigarette electronique ?");
+</script>
+    </h1>    
+<body>
+    <div class="header">
+        <p>BIENVENUE CHEZ CIG STORE</p>
+    </div>
+    <section class="formulaire">
+        <form action="traitement.php" method="POST">
+            <div>
+                <label for="name">Nom:</label>
+                <input for="text" id="name" name="user_name">
+           </div>
+            <div>
+                <label for="email">e-mail :</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+        <div>
+            <label for="msg">Messages:</label>
+            <textarea id="msg" name="user__message"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Envoyer le message</button>
+        </div>  
+        </form>
+    </section>
+    <div class="body">
+    </div>
+    <div class="footer">
+    </div>
+</body>
+</html>
